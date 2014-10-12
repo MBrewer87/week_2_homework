@@ -4,6 +4,11 @@ h1 {
   background-color: LightGray;
 }
 
+footer {
+  clear: both;
+  bottom: 0;
+}
+
 * {
   box-sizing: border-box;
 
@@ -16,12 +21,41 @@ h1 {
   float: left;
 }
 
+.sectionstack_rightalign {
+  width: 33%;
+  float: right;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:link {
+color: white;
+text-decoration: none;
+}
+
 .screenshot {
   width: 66%;
   float: left;
 }
 
+.testimonialgroup {
+  clear: both;
+}
+
 .testimonial {
   width: 25%;
+  float: left;
+}
+
+.subsection {
+  height: 423px;
   float: left;
 }
