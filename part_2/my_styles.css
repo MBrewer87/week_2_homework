@@ -1,7 +1,27 @@
 
+h1 {
+  height: 200px;
+  background-color: LightGray;
+}
+
 * {
   box-sizing: border-box;
 
   /* Make the invisible visible */
   border: thin red solid;
+}
+
+.sectionstack {
+  width: 33%;
+  float: left;
+}
+
+.screenshot {
+  width: 66%;
+  float: left;
+}
+
+.testimonial {
+  width: 25%;
+  float: left;
 }
